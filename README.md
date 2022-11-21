@@ -45,12 +45,12 @@ Medusa CLI
         Após ter criado uma base de dados no PostgreSQL 
         precisamos apenas de duas configurações para conectar.
 
-module.exports = {
+```module.exports = {
   projectConfig: {
     //...other configurations
     database_type: "postgres",
     database_url: DATABASE_URL,
   },
-};
+};```
 
-No database_type mudamos para "postgres", e colocamos o URL da nossa base de dados no database_url.
+        No database_type mudamos para "postgres", e colocamos o URL da nossa base de dados no database_url.
