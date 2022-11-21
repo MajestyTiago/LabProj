@@ -46,10 +46,10 @@
         No database_type mudamos para "postgres",
         e colocamos o URL da nossa base de dados no database_url.
 
- "module.exports = {
+ ```module.exports = {
   projectConfig: {
     //...other configurations
     database_type: "postgres",
     database_url: DATABASE_URL,
   },
-};"
+};```
