@@ -52,4 +52,4 @@
     database_type: "postgres",
     database_url: DATABASE_URL,
   },
-};```
+};
