@@ -1,7 +1,6 @@
 # LabProj
-# LabProj
 
-Medusa CLI
+ - Medusa CLI
 
  - Pré-requisitos
 
@@ -44,13 +43,13 @@ Medusa CLI
 
         Após ter criado uma base de dados no PostgreSQL 
         precisamos apenas de duas configurações para conectar.
+        No database_type mudamos para "postgres",
+        e colocamos o URL da nossa base de dados no database_url.
 
-```module.exports = {
+ "module.exports = {
   projectConfig: {
     //...other configurations
     database_type: "postgres",
     database_url: DATABASE_URL,
   },
-};```
-
-        No database_type mudamos para "postgres", e colocamos o URL da nossa base de dados no database_url.
+};"
