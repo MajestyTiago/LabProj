@@ -43,10 +43,12 @@ const Register = () => {
 
   return (
     <div className="max-w-sm flex flex-col items-center mt-12">
-      <h1 className="text-large-semi uppercase mb-6">Become a LP Member</h1>
+      <h1 className="text-large-semi uppercase mb-6">
+        Become a Ł&amp;Ƥ Member
+      </h1>
       <p className="text-center text-base-regular text-gray-700 mb-4">
-        Create your LP Member profile, and get access to an enhanced shopping
-        experience.
+        Create your Ł&amp;Ƥ Member profile, and get access to an enhanced
+        shopping experience.
       </p>
       <form className="w-full flex flex-col" onSubmit={onSubmit}>
         <div className="flex flex-col w-full gap-y-2">
@@ -92,7 +94,7 @@ const Register = () => {
           </div>
         )}
         <span className="text-center text-gray-700 text-small-regular mt-6">
-          By creating an account, you agree to LP&apos;s{" "}
+          By creating an account, you agree to Ł&amp;Ƥ&apos;s{" "}
           <Link href="/content/privacy-policy">
             <a className="underline">Privacy Policy</a>
           </Link>{" "}

@@ -44,7 +44,7 @@ const FooterNav = () => {
                 </li>
                 <li>
                   <Link href={""}>
-                    <a className="underlineForLinks">LP Store Support</a>
+                    <a className="underlineForLinks">Ł&amp;Ƥ Store Support</a>
                   </Link>
                 </li>
               </ul>
@@ -97,7 +97,7 @@ const FooterNav = () => {
         {/* Nav CopyRights */}
         <div style={{ textAlign: "center" }}>
           <span className="text-xsmall-regular text-gray-500">
-            Copyright © 2022 LP Inc. All rights
+            Copyright © 2022 Ł&amp;Ƥ Inc. All rights
             reserved.&nbsp;&nbsp;&nbsp;&nbsp; Legal
             Terms&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;Privacy
             Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;Cookie
