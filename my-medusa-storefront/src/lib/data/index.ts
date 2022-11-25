@@ -1,6 +1,8 @@
 import { medusaClient } from "@lib/config"
 import { Product, StoreGetProductsParams } from "@medusajs/medusa"
 
+//Data Need review
+
 const COL_LIMIT = 15
 
 const getFeaturedProducts = async (): Promise<Product[]> => {
