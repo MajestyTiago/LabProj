@@ -9,7 +9,7 @@ const Hero = () => {
           Find everything you want here
         </h1>
         <p className="text-base-regular max-w-[32rem] mb-6 drop-shadow-md shadow-black">
-          This year, our new collection will impress you 
+          This year, our new collection will impress you
         </p>
         <UnderlineLink href="/store">Explore products</UnderlineLink>
       </div>
