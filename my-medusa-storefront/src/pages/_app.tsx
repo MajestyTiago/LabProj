@@ -6,6 +6,7 @@ import { StoreProvider } from "@lib/context/store-context"
 import { CartProvider, MedusaProvider } from "medusa-react"
 import { Hydrate } from "react-query"
 import "styles/globals.css"
+import "../modules/layout/components/footer-nav/footer.css"
 import { AppPropsWithLayout } from "types/global"
 
 function App({
