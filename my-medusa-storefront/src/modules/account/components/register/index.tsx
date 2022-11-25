@@ -92,7 +92,7 @@ const Register = () => {
           </div>
         )}
         <span className="text-center text-gray-700 text-small-regular mt-6">
-          By creating an account, you agree to Acme&apos;s{" "}
+          By creating an account, you agree to LP&apos;s{" "}
           <Link href="/content/privacy-policy">
             <a className="underline">Privacy Policy</a>
           </Link>{" "}
