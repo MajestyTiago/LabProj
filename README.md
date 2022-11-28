@@ -9,7 +9,11 @@ Medusa CLI
 - Instalar o Medusa CLI - Para instalar globalmente o Medusa CLI utilizamos o seguinte comando:
 
        npm install @medusajs/medusa-cli -g
-
+       
+ - Criar o projeto Admin
+ 
+        - git clone https://github.com/medusajs/admin medusa-admin
+ 
 - Criar o projeto - Utilizamos o seguinte comando para criar o projeto no Medusa:
 
         - medusa new nome-do-projeto --seed
