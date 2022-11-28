@@ -36,8 +36,8 @@ const DATABASE_URL =
 const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
 
 // Stripe keys
-const STRIPE_API_KEY = process.env.STRIPE_API_KEY || "";
-const STRIPE_WEBHOOK_SECRET = process.env.STRIPE_WEBHOOK_SECRET || "";
+const STRIPE_API_KEY = process.env.STRIPE_API_KEY || "sk_test_51M8tTCI3QlZue95BjbrMy5i8Acf750ZZmj9kLHUyn9V0uUehZ355WsCnAqHi0nAX5zn4J1IzlKUitB0Qx4g40C8a00p09JVCbE";
+const STRIPE_WEBHOOK_SECRET = process.env.STRIPE_WEBHOOK_SECRET || "pk_test_51M8tTCI3QlZue95BPFRSlIOBOx4C9RdgyrUVaE6tyiZ3NnwhWVdePFCVCjrZSBTPnGN1KWwD7FmmgWg0gMoyovXh00HizZjEYy";
 
 // This is the place to include plugins. See API documentation for a thorough guide on plugins.
 const plugins = [
@@ -45,13 +45,13 @@ const plugins = [
   `medusa-payment-manual`,
   // Uncomment to add Stripe support.
   // You can create a Stripe account via: https://stripe.com
-  // {
-  //   resolve: `medusa-payment-stripe`,
-  //   options: {
-  //     api_key: STRIPE_API_KEY,
-  //     webhook_secret: STRIPE_WEBHOOK_SECRET,
-  //   },
-  // },
+   {
+    resolve: `medusa-payment-stripe`,
+    options: {
+       api_key: STRIPE_API_KEY,
+      webhook_secret: STRIPE_WEBHOOK_SECRET,
+     },
+   },
 ];
 
 module.exports = {
