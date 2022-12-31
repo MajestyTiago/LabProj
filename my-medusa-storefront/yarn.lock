@@ -448,10 +448,10 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
-"@headlessui/react@^1.6.1":
-  "integrity" "sha512-gMd6uIs1U4Oz718Z5gFoV0o/vD43/4zvbyiJN9Dt7PK9Ubxn+TmJwTmYwyNJc5KxxU1t0CmgTNgwZX9+4NjCnQ=="
-  "resolved" "https://registry.npmjs.org/@headlessui/react/-/react-1.6.1.tgz"
-  "version" "1.6.1"
+"@headlessui/react@^0.0.0-dev.0ce63d8":
+  "integrity" "sha512-jocCGaKgQUoVf61BpwJfcv5hemOvhZ2n7UF0HnvSvfq4dazBi+ZWBa365Oirtfh+zNHsJGQITA76lEiQMe4bOw=="
+  "resolved" "https://registry.npmjs.org/@headlessui/react/-/react-0.0.0-dev.0ce63d8.tgz"
+  "version" "0.0.0-dev.0ce63d8"
 
 "@hookform/error-message@^2.0.0":
   "integrity" "sha512-Y90nHzjgL2MP7GFy75kscdvxrCTjtyxGmOLLxX14nd08OXRIh9lMH/y9Kpdo0p1IPowJBiZMHyueg7p+yrqynQ=="
