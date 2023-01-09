@@ -37,6 +37,12 @@ const STRIPE_WEBHOOK_SECRET = process.env.STRIPE_WEBHOOK_SECRET || "pk_test_51M8
 const SPACE_KEY = "DO00QYZXCJEDB6MLMZV9";
 const SECRET_SPACE_KEY = "80EAkG3xBrHuPjRHGHDFWo5H1zvbfr/VbynKFoo4XM4"
 
+// Paypal Keys
+PAYPAL_SANDBOX = true
+PAYPAL_CLIENT_ID = "AVWQ5eIx0AWT-P6L4inwytjI4Co5xn2dfxHfOvBsIMpFMN9DBfeszixbLJI9moDaKghyt1JxvsENf2PU";
+PAYPAL_CLIENT_SECRET = "EOzifx6PhfhBdAF70Mh1ZiqjxeK0dRq39kigb3226VkNsCj4A_JnEX3DI_EmpBMVjT2jo4DZKlJkePhW";
+// PAYPAL_AUTH_WEBHOOK_ID="";
+
 // This is the place to include plugins. See API documentation for a thorough guide on plugins.
 const plugins = [
     `medusa-fulfillment-manual`,
