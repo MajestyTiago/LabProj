@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'medusaLP'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_13EA1FC478B543549BDC89386A037A6D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_79E0B5158A3143BB9013E33FD3AFF002 }}
           package: .
